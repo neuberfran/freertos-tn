@@ -1,0 +1,998 @@
+The target system is: Generic -  - arm
+The host system is: Linux - 5.13.0-30-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc 
+Build flags: --specs=nosys.specs
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++ 
+Build flags: --specs=nosys.specs
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c6ac/fast && /usr/bin/make -f CMakeFiles/cmTC_5c6ac.dir/build.make CMakeFiles/cmTC_5c6ac.dir/build
+make[1]: Entrando no diretório '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c6ac.dir/testCCompiler.c.obj
+/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc   --specs=nosys.specs   -O3    -o CMakeFiles/cmTC_5c6ac.dir/testCCompiler.c.obj   -c /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5c6ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c6ac.dir/link.txt --verbose=1
+/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc --specs=nosys.specs   -O3     CMakeFiles/cmTC_5c6ac.dir/testCCompiler.c.obj  -o cmTC_5c6ac 
+make[1]: Saindo do diretório '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6fad/fast && /usr/bin/make -f CMakeFiles/cmTC_f6fad.dir/build.make CMakeFiles/cmTC_f6fad.dir/build
+make[1]: Entering directory '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj
+/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc   --specs=nosys.specs   -O3    -v -o CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+Reading specs from /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r
+Thread model: single
+gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) 
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj' '-c'
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/cc1 -quiet -v -iprefix /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/ -isysroot /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj -O3 -version -o /tmp/ccwjB86r.s
+GNU C (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)
+	compiled by GNU C version 4.7.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include"
+ignoring nonexistent directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/local/include"
+ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include-fixed"
+ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include
+End of search list.
+GNU C (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)
+	compiled by GNU C version 4.7.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 23ae9d7553dfa09bbef2d3a65686f7ef
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj' '-c'
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj /tmp/ccwjB86r.s
+GNU assembler version 2.24.0 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.24.0.20150921
+COMPILER_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj' '-c'
+Linking C executable cmTC_f6fad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6fad.dir/link.txt --verbose=1
+/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc --specs=nosys.specs   -O3    -v CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj  -o cmTC_f6fad 
+Using built-in specs.
+Reading specs from /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper
+Target: arm-none-eabi
+Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r
+Thread model: single
+gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) 
+COMPILER_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'cmTC_f6fad'
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/collect2 -plugin /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/liblto_plugin.so -plugin-opt=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqPkeBt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -X -o cmTC_f6fad /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3 -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+make[1]: Leaving directory '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include]
+    add: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed]
+    add: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include]
+  collapse include dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include-fixed]
+  collapse include dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include]
+  implicit include dirs: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include;/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include-fixed;/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_f6fad/fast && /usr/bin/make -f CMakeFiles/cmTC_f6fad.dir/build.make CMakeFiles/cmTC_f6fad.dir/build]
+  ignore line: [make[1]: Entering directory '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc   --specs=nosys.specs   -O3    -v -o CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/cc1 -quiet -v -iprefix /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/ -isysroot /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj -O3 -version -o /tmp/ccwjB86r.s]
+  ignore line: [GNU C (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.7.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include"]
+  ignore line: [ignoring nonexistent directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include]
+  ignore line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed]
+  ignore line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.7.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 23ae9d7553dfa09bbef2d3a65686f7ef]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj /tmp/ccwjB86r.s]
+  ignore line: [GNU assembler version 2.24.0 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.24.0.20150921]
+  ignore line: [COMPILER_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [Linking C executable cmTC_f6fad]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6fad.dir/link.txt --verbose=1]
+  ignore line: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc --specs=nosys.specs   -O3    -v CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj  -o cmTC_f6fad ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) ]
+  ignore line: [COMPILER_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'cmTC_f6fad']
+  link line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/collect2 -plugin /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/liblto_plugin.so -plugin-opt=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqPkeBt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -X -o cmTC_f6fad /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3 -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o]
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqPkeBt.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f6fad] ==> ignore
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o] ==> ignore
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o] ==> ignore
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o] ==> ignore
+    arg [-L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3] ==> dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3]
+    arg [-L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc] ==> dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc]
+    arg [-L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib] ==> dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib]
+    arg [-L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib] ==> dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib]
+    arg [CMakeFiles/cmTC_f6fad.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o] ==> ignore
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o] ==> ignore
+  collapse library dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3]
+  collapse library dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc]
+  collapse library dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/lib]
+  collapse library dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/lib]
+  implicit libs: [gcc;c;gcc;c;nosys]
+  implicit dirs: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3;/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc;/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f406c/fast && /usr/bin/make -f CMakeFiles/cmTC_f406c.dir/build.make CMakeFiles/cmTC_f406c.dir/build
+make[1]: Entrando no diretório '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f406c.dir/testCXXCompiler.cxx.obj
+/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++    --specs=nosys.specs   -O3    -o CMakeFiles/cmTC_f406c.dir/testCXXCompiler.cxx.obj -c /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f406c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f406c.dir/link.txt --verbose=1
+/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++  --specs=nosys.specs   -O3     CMakeFiles/cmTC_f406c.dir/testCXXCompiler.cxx.obj  -o cmTC_f406c 
+make[1]: Saindo do diretório '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_10bd8/fast && /usr/bin/make -f CMakeFiles/cmTC_10bd8.dir/build.make CMakeFiles/cmTC_10bd8.dir/build
+make[1]: Entering directory '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj
+/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++    --specs=nosys.specs   -O3    -v -o CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+Reading specs from /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++
+Target: arm-none-eabi
+Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r
+Thread model: single
+gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) 
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/cc1plus -quiet -v -iprefix /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/ -isysroot /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj -O3 -version -o /tmp/ccKLGOYG.s
+GNU C++ (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)
+	compiled by GNU C version 4.7.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3"
+ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi"
+ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward"
+ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include"
+ignoring nonexistent directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/local/include"
+ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include-fixed"
+ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include
+End of search list.
+GNU C++ (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)
+	compiled by GNU C version 4.7.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b2a48e419865560d4c520822e41296e7
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccKLGOYG.s
+GNU assembler version 2.24.0 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.24.0.20150921
+COMPILER_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+Linking CXX executable cmTC_10bd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10bd8.dir/link.txt --verbose=1
+/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++  --specs=nosys.specs   -O3    -v CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_10bd8 
+Using built-in specs.
+Reading specs from /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++
+COLLECT_LTO_WRAPPER=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper
+Target: arm-none-eabi
+Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r
+Thread model: single
+gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) 
+COMPILER_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'cmTC_10bd8'
+ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/collect2 -plugin /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/liblto_plugin.so -plugin-opt=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOiKnLH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -X -o cmTC_10bd8 /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3 -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+make[1]: Leaving directory '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3]
+    add: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi]
+    add: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward]
+    add: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include]
+    add: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed]
+    add: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/c++/4.9.3]
+  collapse include dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/c++/4.9.3/arm-none-eabi]
+  collapse include dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/c++/4.9.3/backward]
+  collapse include dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include]
+  collapse include dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include-fixed]
+  collapse include dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include]
+  implicit include dirs: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/c++/4.9.3;/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/c++/4.9.3/arm-none-eabi;/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/c++/4.9.3/backward;/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include;/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include-fixed;/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_10bd8/fast && /usr/bin/make -f CMakeFiles/cmTC_10bd8.dir/build.make CMakeFiles/cmTC_10bd8.dir/build]
+  ignore line: [make[1]: Entering directory '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++    --specs=nosys.specs   -O3    -v -o CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/cc1plus -quiet -v -iprefix /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/ -isysroot /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj -O3 -version -o /tmp/ccKLGOYG.s]
+  ignore line: [GNU C++ (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.7.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include"]
+  ignore line: [ignoring nonexistent directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3]
+  ignore line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi]
+  ignore line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward]
+  ignore line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include]
+  ignore line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed]
+  ignore line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.7.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b2a48e419865560d4c520822e41296e7]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccKLGOYG.s]
+  ignore line: [GNU assembler version 2.24.0 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.24.0.20150921]
+  ignore line: [COMPILER_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [Linking CXX executable cmTC_10bd8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10bd8.dir/link.txt --verbose=1]
+  ignore line: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++  --specs=nosys.specs   -O3    -v CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_10bd8 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) ]
+  ignore line: [COMPILER_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'cmTC_10bd8']
+  link line: [ /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/collect2 -plugin /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/liblto_plugin.so -plugin-opt=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOiKnLH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -X -o cmTC_10bd8 /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3 -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib -L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o /home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o]
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccOiKnLH.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_10bd8] ==> ignore
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o] ==> ignore
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o] ==> ignore
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o] ==> ignore
+    arg [-L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3] ==> dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3]
+    arg [-L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc] ==> dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc]
+    arg [-L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib] ==> dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib]
+    arg [-L/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib] ==> dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib]
+    arg [CMakeFiles/cmTC_10bd8.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o] ==> ignore
+    arg [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o] ==> ignore
+  collapse library dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3]
+  collapse library dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc]
+  collapse library dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/lib]
+  collapse library dir [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib] ==> [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/lib]
+  implicit libs: [stdc++;m;gcc;c;gcc;c;nosys]
+  implicit dirs: [/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3;/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/lib/gcc;/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77ee9/fast && /usr/bin/make -f CMakeFiles/cmTC_77ee9.dir/build.make CMakeFiles/cmTC_77ee9.dir/build
+make[1]: Entrando no diretório '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_77ee9.dir/feature_tests.cxx.obj
+/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++    --specs=nosys.specs   -O3    -std=c++14 -o CMakeFiles/cmTC_77ee9.dir/feature_tests.cxx.obj -c /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_77ee9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77ee9.dir/link.txt --verbose=1
+/home/neuberfran/projects/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++  --specs=nosys.specs   -O3     CMakeFiles/cmTC_77ee9.dir/feature_tests.cxx.obj  -o cmTC_77ee9 
+make[1]: Saindo do diretório '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977]
+Copyright (C) 2014 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc 
+Build flags: --specs=nosys.specs
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++ 
+Build flags: --specs=nosys.specs
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_87ae6/fast && /usr/bin/make -f CMakeFiles/cmTC_87ae6.dir/build.make CMakeFiles/cmTC_87ae6.dir/build
+make[1]: Entrando no diretório '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87ae6.dir/testCCompiler.c.obj
+/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc   --specs=nosys.specs   -O3    -o CMakeFiles/cmTC_87ae6.dir/testCCompiler.c.obj   -c /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_87ae6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87ae6.dir/link.txt --verbose=1
+/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc --specs=nosys.specs   -O3     CMakeFiles/cmTC_87ae6.dir/testCCompiler.c.obj  -o cmTC_87ae6 
+make[1]: Saindo do diretório '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_30a3a/fast && /usr/bin/make -f CMakeFiles/cmTC_30a3a.dir/build.make CMakeFiles/cmTC_30a3a.dir/build
+make[1]: Entering directory '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj
+/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc   --specs=nosys.specs   -O3    -v -o CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+Reading specs from /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r
+Thread model: single
+gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) 
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj' '-c'
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/cc1 -quiet -v -iprefix /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/ -isysroot /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj -O3 -version -o /tmp/ccTP9wdf.s
+GNU C (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)
+	compiled by GNU C version 4.7.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include"
+ignoring nonexistent directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/local/include"
+ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include-fixed"
+ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include
+End of search list.
+GNU C (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)
+	compiled by GNU C version 4.7.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 23ae9d7553dfa09bbef2d3a65686f7ef
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj' '-c'
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj /tmp/ccTP9wdf.s
+GNU assembler version 2.24.0 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.24.0.20150921
+COMPILER_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj' '-c'
+Linking C executable cmTC_30a3a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30a3a.dir/link.txt --verbose=1
+/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc --specs=nosys.specs   -O3    -v CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj  -o cmTC_30a3a 
+Using built-in specs.
+Reading specs from /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper
+Target: arm-none-eabi
+Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r
+Thread model: single
+gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) 
+COMPILER_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'cmTC_30a3a'
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/collect2 -plugin /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/liblto_plugin.so -plugin-opt=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/cc16xzHi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -X -o cmTC_30a3a /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3 -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+make[1]: Leaving directory '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include]
+    add: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed]
+    add: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include]
+  collapse include dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include-fixed]
+  collapse include dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include]
+  implicit include dirs: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include;/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include-fixed;/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_30a3a/fast && /usr/bin/make -f CMakeFiles/cmTC_30a3a.dir/build.make CMakeFiles/cmTC_30a3a.dir/build]
+  ignore line: [make[1]: Entering directory '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc   --specs=nosys.specs   -O3    -v -o CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/cc1 -quiet -v -iprefix /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/ -isysroot /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj -O3 -version -o /tmp/ccTP9wdf.s]
+  ignore line: [GNU C (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.7.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include"]
+  ignore line: [ignoring nonexistent directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include]
+  ignore line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed]
+  ignore line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.7.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 23ae9d7553dfa09bbef2d3a65686f7ef]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj /tmp/ccTP9wdf.s]
+  ignore line: [GNU assembler version 2.24.0 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.24.0.20150921]
+  ignore line: [COMPILER_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [Linking C executable cmTC_30a3a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30a3a.dir/link.txt --verbose=1]
+  ignore line: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc --specs=nosys.specs   -O3    -v CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj  -o cmTC_30a3a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) ]
+  ignore line: [COMPILER_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'cmTC_30a3a']
+  link line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/collect2 -plugin /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/liblto_plugin.so -plugin-opt=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/cc16xzHi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -X -o cmTC_30a3a /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3 -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o]
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc16xzHi.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_30a3a] ==> ignore
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o] ==> ignore
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o] ==> ignore
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o] ==> ignore
+    arg [-L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3] ==> dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3]
+    arg [-L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc] ==> dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc]
+    arg [-L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib] ==> dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib]
+    arg [-L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib] ==> dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib]
+    arg [CMakeFiles/cmTC_30a3a.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o] ==> ignore
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o] ==> ignore
+  collapse library dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3]
+  collapse library dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc]
+  collapse library dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/lib]
+  collapse library dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/lib]
+  implicit libs: [gcc;c;gcc;c;nosys]
+  implicit dirs: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3;/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc;/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81a16/fast && /usr/bin/make -f CMakeFiles/cmTC_81a16.dir/build.make CMakeFiles/cmTC_81a16.dir/build
+make[1]: Entrando no diretório '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81a16.dir/testCXXCompiler.cxx.obj
+/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++    --specs=nosys.specs   -O3    -o CMakeFiles/cmTC_81a16.dir/testCXXCompiler.cxx.obj -c /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_81a16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81a16.dir/link.txt --verbose=1
+/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++  --specs=nosys.specs   -O3     CMakeFiles/cmTC_81a16.dir/testCXXCompiler.cxx.obj  -o cmTC_81a16 
+make[1]: Saindo do diretório '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56fc4/fast && /usr/bin/make -f CMakeFiles/cmTC_56fc4.dir/build.make CMakeFiles/cmTC_56fc4.dir/build
+make[1]: Entering directory '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj
+/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++    --specs=nosys.specs   -O3    -v -o CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+Reading specs from /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++
+Target: arm-none-eabi
+Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r
+Thread model: single
+gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) 
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/cc1plus -quiet -v -iprefix /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/ -isysroot /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj -O3 -version -o /tmp/ccx3QVrn.s
+GNU C++ (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)
+	compiled by GNU C version 4.7.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3"
+ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi"
+ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward"
+ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include"
+ignoring nonexistent directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/local/include"
+ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include-fixed"
+ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include
+End of search list.
+GNU C++ (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)
+	compiled by GNU C version 4.7.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b2a48e419865560d4c520822e41296e7
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccx3QVrn.s
+GNU assembler version 2.24.0 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.24.0.20150921
+COMPILER_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+Linking CXX executable cmTC_56fc4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56fc4.dir/link.txt --verbose=1
+/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++  --specs=nosys.specs   -O3    -v CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_56fc4 
+Using built-in specs.
+Reading specs from /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++
+COLLECT_LTO_WRAPPER=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper
+Target: arm-none-eabi
+Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r
+Thread model: single
+gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) 
+COMPILER_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'cmTC_56fc4'
+ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/collect2 -plugin /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/liblto_plugin.so -plugin-opt=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpYjeCp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -X -o cmTC_56fc4 /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3 -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+make[1]: Leaving directory '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3]
+    add: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi]
+    add: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward]
+    add: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include]
+    add: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed]
+    add: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/c++/4.9.3]
+  collapse include dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/c++/4.9.3/arm-none-eabi]
+  collapse include dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/c++/4.9.3/backward]
+  collapse include dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include]
+  collapse include dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include-fixed]
+  collapse include dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include]
+  implicit include dirs: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/c++/4.9.3;/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/c++/4.9.3/arm-none-eabi;/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/c++/4.9.3/backward;/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include;/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/include-fixed;/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_56fc4/fast && /usr/bin/make -f CMakeFiles/cmTC_56fc4.dir/build.make CMakeFiles/cmTC_56fc4.dir/build]
+  ignore line: [make[1]: Entering directory '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++    --specs=nosys.specs   -O3    -v -o CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/cc1plus -quiet -v -iprefix /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/ -isysroot /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj -O3 -version -o /tmp/ccx3QVrn.s]
+  ignore line: [GNU C++ (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.7.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include"]
+  ignore line: [ignoring nonexistent directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3]
+  ignore line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi]
+  ignore line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward]
+  ignore line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include]
+  ignore line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed]
+  ignore line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (GNU Tools for ARM Embedded Processors) version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.7.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b2a48e419865560d4c520822e41296e7]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/as -v -meabi=5 -o CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccx3QVrn.s]
+  ignore line: [GNU assembler version 2.24.0 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.24.0.20150921]
+  ignore line: [COMPILER_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [Linking CXX executable cmTC_56fc4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56fc4.dir/link.txt --verbose=1]
+  ignore line: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++  --specs=nosys.specs   -O3    -v CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_56fc4 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-native --libexecdir=/home/build/work/GCC-4-9-build/install-native/lib --infodir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-native/arm-none-eabi --build=i686-linux-gnu --host=i686-linux-gnu --with-gmp=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977] (GNU Tools for ARM Embedded Processors) ]
+  ignore line: [COMPILER_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/:/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-O3' '-v' '-o' 'cmTC_56fc4']
+  link line: [ /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/collect2 -plugin /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/liblto_plugin.so -plugin-opt=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpYjeCp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi -X -o cmTC_56fc4 /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3 -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib -L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o /home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o]
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpYjeCp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_56fc4] ==> ignore
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o] ==> ignore
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o] ==> ignore
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o] ==> ignore
+    arg [-L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3] ==> dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3]
+    arg [-L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc] ==> dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc]
+    arg [-L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib] ==> dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib]
+    arg [-L/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib] ==> dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib]
+    arg [CMakeFiles/cmTC_56fc4.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o] ==> ignore
+    arg [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o] ==> ignore
+  collapse library dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3]
+  collapse library dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc]
+  collapse library dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/lib]
+  collapse library dir [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/bin/../arm-none-eabi/lib] ==> [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/lib]
+  implicit libs: [stdc++;m;gcc;c;gcc;c;nosys]
+  implicit dirs: [/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3;/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/lib/gcc;/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aea64/fast && /usr/bin/make -f CMakeFiles/cmTC_aea64.dir/build.make CMakeFiles/cmTC_aea64.dir/build
+make[1]: Entrando no diretório '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aea64.dir/feature_tests.cxx.obj
+/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++    --specs=nosys.specs   -O3    -std=c++14 -o CMakeFiles/cmTC_aea64.dir/feature_tests.cxx.obj -c /home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_aea64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aea64.dir/link.txt --verbose=1
+/home/neuberfran/gcc-arm-none-eabi-4_9-2015q3//bin/arm-none-eabi-g++  --specs=nosys.specs   -O3     CMakeFiles/cmTC_aea64.dir/feature_tests.cxx.obj  -o cmTC_aea64 
+make[1]: Saindo do diretório '/home/neuberfran/projects/freertos-tn/examples/imx7d_pico_m4/demo_apps/hello_world/armgcc/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates
